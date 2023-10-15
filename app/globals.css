@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home {
+  @apply lg:grid lg:grid-cols-2 pt-12;
+}
+
+.home__form {
+  @apply mx-auto lg:mr-0 lg:ml-auto max-w-sm lg:max-w-[500px] lg:w-[500px] flex flex-col lg:px-4;
+}
+
+.home__label {
+  @apply font-bold;
+}
+
+.home__textarea {
+  @apply h-24 w-full;
+}
+
+.home__button-container {
+  @apply w-full mt-2;
+}
+
+.home__button {
+  @apply border border-gray-500 px-3 py-1;
+}
+
+.home__aside {
+  @apply max-w-sm mx-auto lg:mx-0 lg:px-4;
+}
+
+.home__title {
+  @apply font-bold leading-7;
+}
+
+/* PoS Classes */
+span {
+  @apply inline-block px-1 rounded-sm leading-5;
+}
+
+.preposition {
+  @apply bg-red-500/50;
+}
+
+.date {
+  @apply bg-blue-500/50;
+}
+
+.noun {
+  @apply bg-green-500/50;
+}
+
+.expression {
+  @apply bg-yellow-500/50;
+}
+
+.possessive {
+  @apply bg-yellow-500/50;
+}
+
+.adverb {
+  @apply bg-indigo-500/50;
+}
+
+.verb {
+  @apply bg-purple-500/50;
+}
+
+.singular {
+  @apply bg-pink-500/50;
+}
+
+.adjective {
+  @apply bg-gray-500/50;
+}
+
+.plural {
+  @apply bg-orange-500/50;
+}
+
+.actor {
+  @apply bg-teal-500/50;
+}
+
+.presenttense {
+  @apply bg-red-600/50;
+}
+
+.infinitive {
+  @apply bg-blue-600/50;
+}
+
+.uncountable {
+  @apply bg-green-600/50;
+}
+
+.determiner {
+  @apply bg-yellow-600/50;
+}
+
+.conjunction {
+  @apply bg-indigo-600/50;
+}
+
+.value {
+  @apply bg-purple-600/50;
+}
+
+.textvalue {
+  @apply bg-pink-600/50;
+}
+
+.cardinal {
+  @apply bg-gray-600/50;
+}
+
+.propernoun {
+  @apply bg-orange-600/50;
+}
+
+.hyphenated {
+  @apply bg-teal-600/50;
+}
+
+.copula {
+  @apply bg-red-700/50;
+}
+
+.gerund {
+  @apply bg-blue-700/50;
+}
+
+.pronoun {
+  @apply bg-green-700/50;
+}
+
+.pasttense {
+  @apply bg-yellow-700/50;
+}
+
+.acronym {
+  @apply bg-indigo-700/50;
+}
+
+.imperative {
+  @apply bg-purple-700/50;
+}
+
+.questionword {
+  @apply bg-pink-700/50;
+}
+
+.abbreviation {
+  @apply bg-gray-700/50;
+}
